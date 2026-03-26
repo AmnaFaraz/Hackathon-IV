@@ -1,0 +1,82 @@
+[
+  {
+    "id": "llm-1",
+    "chapter_slug": "intro-to-llms",
+    "question": "What architecture do all modern LLMs use as their foundation?",
+    "options": ["LSTM", "Transformer", "CNN", "RNN"],
+    "answer": "Transformer",
+    "explanation": "The Transformer architecture introduced in 'Attention Is All You Need' (2017) is the foundation of all modern LLMs."
+  },
+  {
+    "id": "llm-2",
+    "chapter_slug": "intro-to-llms",
+    "question": "What is 'hallucination' in the context of LLMs?",
+    "options": ["Visual processing errors", "Generating plausible but false information", "Model confusion about language", "Training data errors"],
+    "answer": "Generating plausible but false information",
+    "explanation": "Hallucination refers to LLMs generating confident-sounding but factually incorrect information."
+  },
+  {
+    "id": "llm-3",
+    "chapter_slug": "intro-to-llms",
+    "question": "What does RLHF stand for?",
+    "options": ["Recursive Learning with Human Feedback", "Reinforcement Learning from Human Feedback", "Regularized Learning with Hyperparameter Fine-tuning", "Real-time Learning with Human Features"],
+    "answer": "Reinforcement Learning from Human Feedback",
+    "explanation": "RLHF is a technique that uses human preference data to align LLMs with human values and intentions."
+  },
+  {
+    "id": "pe-1",
+    "chapter_slug": "prompt-engineering",
+    "question": "Which prompting technique asks the model to show its reasoning step by step?",
+    "options": ["Zero-shot", "Few-shot", "Chain-of-Thought", "Self-consistency"],
+    "answer": "Chain-of-Thought",
+    "explanation": "Chain-of-Thought (CoT) prompting asks the model to reason through a problem step by step before giving the final answer."
+  },
+  {
+    "id": "pe-2",
+    "chapter_slug": "prompt-engineering",
+    "question": "What is prompt injection?",
+    "options": ["Adding examples to a prompt", "Malicious input to override system instructions", "Injecting variables into prompt templates", "Optimizing prompts automatically"],
+    "answer": "Malicious input to override system instructions",
+    "explanation": "Prompt injection is an attack where malicious users craft inputs to override or bypass system prompt instructions."
+  },
+  {
+    "id": "rag-1",
+    "chapter_slug": "rag",
+    "question": "In RAG, what is the typical vector dimension for all-MiniLM-L6-v2?",
+    "options": ["128", "256", "384", "768"],
+    "answer": "384",
+    "explanation": "The all-MiniLM-L6-v2 model produces 384-dimensional embeddings."
+  },
+  {
+    "id": "rag-2",
+    "chapter_slug": "rag",
+    "question": "What does 'chunking with overlap' achieve in RAG?",
+    "options": ["Faster embedding generation", "Preserves context across chunk boundaries", "Reduces vector dimensions", "Improves LLM generation quality"],
+    "answer": "Preserves context across chunk boundaries",
+    "explanation": "Overlapping chunks ensure that important context at the boundaries between chunks is not lost."
+  },
+  {
+    "id": "ft-1",
+    "chapter_slug": "fine-tuning",
+    "question": "What does LoRA stand for?",
+    "options": ["Large-scale Optimization and Regularization Approach", "Low-Rank Adaptation", "Layer-wise Output Reduction Algorithm", "Learned Output Representation Adjustment"],
+    "answer": "Low-Rank Adaptation",
+    "explanation": "LoRA (Low-Rank Adaptation) adds small trainable rank-decomposed matrices to frozen model weights."
+  },
+  {
+    "id": "ag-1",
+    "chapter_slug": "ai-agents",
+    "question": "In the ReAct agent pattern, what does ReAct stand for?",
+    "options": ["Recursive Action", "Reasoning + Acting", "Reactive AI Control", "Real-time Agent Communication"],
+    "answer": "Reasoning + Acting",
+    "explanation": "ReAct interleaves Reasoning traces with Acting (tool calls) to improve agent reliability."
+  },
+  {
+    "id": "ev-1",
+    "chapter_slug": "evaluation",
+    "question": "Which RAGAS metric measures whether the answer is grounded in the retrieved context?",
+    "options": ["Answer Relevancy", "Context Precision", "Faithfulness", "Context Recall"],
+    "answer": "Faithfulness",
+    "explanation": "Faithfulness measures whether all claims in the answer are supported by the retrieved context."
+  }
+]

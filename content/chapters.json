@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "slug": "intro-to-llms",
+    "title": "Introduction to LLMs",
+    "order": 1,
+    "is_free": true,
+    "content_file": "intro-to-llms.md",
+    "quiz_count": 5,
+    "estimated_minutes": 15
+  },
+  {
+    "id": 2,
+    "slug": "prompt-engineering",
+    "title": "Prompt Engineering",
+    "order": 2,
+    "is_free": true,
+    "content_file": "prompt-engineering.md",
+    "quiz_count": 5,
+    "estimated_minutes": 20
+  },
+  {
+    "id": 3,
+    "slug": "rag",
+    "title": "Retrieval-Augmented Generation",
+    "order": 3,
+    "is_free": false,
+    "content_file": "rag.md",
+    "quiz_count": 5,
+    "estimated_minutes": 25
+  },
+  {
+    "id": 4,
+    "slug": "fine-tuning",
+    "title": "Fine-tuning LLMs",
+    "order": 4,
+    "is_free": false,
+    "content_file": "fine-tuning.md",
+    "quiz_count": 5,
+    "estimated_minutes": 25
+  },
+  {
+    "id": 5,
+    "slug": "ai-agents",
+    "title": "AI Agents",
+    "order": 5,
+    "is_free": false,
+    "content_file": "ai-agents.md",
+    "quiz_count": 5,
+    "estimated_minutes": 20
+  },
+  {
+    "id": 6,
+    "slug": "evaluation",
+    "title": "Evaluating AI Systems",
+    "order": 6,
+    "is_free": false,
+    "content_file": "evaluation.md",
+    "quiz_count": 5,
+    "estimated_minutes": 20
+  }
+]
