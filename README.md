@@ -1,6 +1,8 @@
 # Course Companion FTE — Generative AI Fundamentals
 
 **Student:** Amna Faraz | **GitHub:** AmnaFaraz
+**Live Frontend:** [https://panaversity-course-companion.vercel.app](https://panaversity-course-companion.vercel.app)
+**Live Backend:** [https://hackathon-iv-backend.onrender.com](https://hackathon-iv-backend.onrender.com)
 
 ## Phases
 

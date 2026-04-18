@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from dotenv import load_dotenv
 from supabase import create_client
-from sentence_transformers import SentenceTransformer
+from fastembed import TextEmbedding
 
 load_dotenv()
 
@@ -17,7 +17,8 @@ if not SUPABASE_URL or not SUPABASE_KEY:
     exit(1)
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = TextEmbedding(model_name="sentence-transformers/all-MiniLM-L6-v2")
+print("Embedding model loaded.")
 
 def ingest():
     chapters_file = CONTENT_DIR / "chapters.json"
@@ -40,7 +41,7 @@ def ingest():
         for idx, chunk in enumerate(chunks):
             if len(chunk.strip()) < 50: continue
             
-            embedding = model.encode(chunk).tolist()
+            embedding = list(model.embed([chunk]))[0].tolist()
             
             data = {
                 "chapter_slug": chapter["slug"],

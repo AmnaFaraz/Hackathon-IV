@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
     }
 
     const systemPrompt = chapterContent
-      ? `You are an expert AI tutor for the course "Generative AI Fundamentals."
+      ? `You are an expert AI assistent for the course "Generative AI Fundamentals."
 You are helping a student with Chapter: "${chapterTitle}".
 
 Answer ONLY based on the chapter content below.
@@ -27,7 +27,7 @@ Be concise (max 200 words). Use examples when helpful.
 
 CHAPTER CONTENT:
 ${chapterContent.slice(0, 3000)}`
-      : `You are an expert AI tutor for a Generative AI Fundamentals course.
+      : `You are an expert AI assistent for a Generative AI Fundamentals course.
 Answer questions about LLMs, Prompt Engineering, RAG, Fine-tuning, AI Agents, and Evaluation.
 Be concise and educational.`;
 

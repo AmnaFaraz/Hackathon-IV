@@ -53,7 +53,7 @@ export const api = {
 };
 
 export const PRICING = [
-  { name: "Free", price: "$0", features: ["Chapters 1-2", "Basic quizzes", "AI Tutor (limited)"], cta: "Get Started", highlight: false },
+  { name: "Free", price: "$0", features: ["Chapters 1-2", "Basic quizzes", "AI Assistent (limited)"], cta: "Get Started", highlight: false },
   { name: "Premium", price: "$9.99/mo", features: ["All 6 chapters", "AI essay grading", "Learning path", "All quizzes"], cta: "Upgrade", highlight: true },
   { name: "Premium Pro", price: "$19.99/mo", features: ["Everything in Premium", "AI mentor sessions", "Analytics dashboard", "Teacher access"], cta: "Go Pro", highlight: false },
 ];

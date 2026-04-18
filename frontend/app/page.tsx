@@ -41,7 +41,7 @@ export default function HomePage() {
         </h1>
         <p className="text-lg text-[var(--text-secondary)] max-w-xl mb-8">
           6 deep-dive chapters covering LLMs, Prompt Engineering, RAG, Fine-tuning, AI Agents, and Evaluation.
-          With an AI tutor that answers from the exact chapter content.
+          With an AI assistent that answers from the exact chapter content.
         </p>
         <div className="flex gap-4">
           <Link href="/learn/intro-to-llms" className="px-6 py-3 rounded-lg font-medium" style={{ background: "var(--accent)", color: "#080B14" }}>
